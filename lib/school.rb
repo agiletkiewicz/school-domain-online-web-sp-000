@@ -12,7 +12,7 @@ class School
   end
   
   def add.student(name, grade)
-    
+    @roster[:grade] << name
   end
   
 end
