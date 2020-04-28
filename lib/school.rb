@@ -11,7 +11,7 @@ class School
     @name
   end
   
-  def add.student(name, grade)
+  def add_student(name, grade)
     if @roster.keys.include?(grade)
       @roster[:grade] << name
     else
